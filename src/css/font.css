@@ -1,0 +1,154 @@
+@charset 'utf-8';
+/* Noto Sans KR (korean) http://www.google.com/font/earlyaccess */ 
+@font-face { 
+  font-family: 'Noto Sans KR'; 
+  font-style: normal; 
+  font-weight: 100; 
+  src: url('../font/NotoSansKR-Thin.woff2') format('woff2'), 
+      url('../font/NotoSansKR-Thin.woff') format('woff'), 
+      url('../font/NotoSansKR-Thin.otf') format('opentype'); 
+} 
+@font-face { 
+  font-family: 'Noto Sans KR'; 
+  font-style: normal; 
+  font-weight: 300; 
+  src: url('../font/NotoSansKR-Light.woff2') format('woff2'), 
+      url('../font/NotoSansKR-Light.woff') format('woff'), 
+      url('../font/NotoSansKR-Light.otf') format('opentype'); 
+} 
+@font-face { 
+  font-family: 'Noto Sans KR'; 
+  font-style: normal; 
+  font-weight: 400; 
+  src: url('../font/NotoSansKR-Regular.woff2') format('woff2'), 
+        url('../font/NotoSansKR-Regular.woff') format('woff'), 
+        url('../font/NotoSansKR-Regular.otf') format('opentype'); 
+ } 
+@font-face { 
+  font-family: 'Noto Sans KR'; 
+  font-style: normal; 
+  font-weight: 500; 
+  src: url('../font/NotoSansKR-Medium.woff2') format('woff2'), 
+        url('../font/NotoSansKR-Medium.woff') format('woff'), 
+        url('../font/NotoSansKR-Medium.otf') format('opentype'); 
+ } 
+@font-face { 
+  font-family: 'Noto Sans KR'; 
+  font-style: normal; 
+  font-weight: 700; 
+  src: url('../font/NotoSansKR-Bold.woff2') format('woff2'), 
+        url('../font/NotoSansKR-Bold.woff') format('woff'), 
+        url('../font/NotoSansKR-Bold.otf') format('opentype'); 
+ } 
+@font-face { 
+  font-family: 'Noto Sans KR'; 
+  font-style: normal; 
+  font-weight: 900; 
+  src: url('../font/NotoSansKR-Black.woff2') format('woff2'), 
+        url('../font/NotoSansKR-Black.woff') format('woff'), 
+        url('../font/NotoSansKR-Black.otf') format('opentype'); 
+ } 
+ 
+ @font-face {
+ font-family: 'NanumSquare';
+ font-weight: 300;
+ src: url('../font/NanumSquareL.eot');
+ src: url('../font/NanumSquareL.eot?#iefix') format('embedded-opentype'),
+      url('../font/NanumSquareL.woff') format('woff'),
+      url('../font/NanumSquareL.ttf') format('truetype');
+}
+ @font-face {
+ font-family: 'NanumSquare';
+ font-weight: 400;
+ src: url('../font/NanumSquareR.eot');
+ src: url('../font/NanumSquareR.eot?#iefix') format('embedded-opentype'),
+      url('../font/NanumSquareR.woff') format('woff'),
+      url('../font/NanumSquareR.ttf') format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 700;
+ src: url('../font/NanumSquareB.eot');
+ src: url('../font/NanumSquareB.eot?#iefix') format('embedded-opentype'),
+      url('../font/NanumSquareB.woff') format('woff'),
+      url('../font/NanumSquareB.ttf') format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 800;
+ src: url('../font/NanumSquareEB.eot');
+ src: url('../font/NanumSquareEB.eot?#iefix') format('embedded-opentype'),
+      url('../font/NanumSquareEB.woff') format('woff'),
+      url('../font/NanumSquareEB.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 300;
+  src: local('NanumSquareRoundL'), /* computer */
+    url('../font/NanumSquareRoundL.eot'), /* IE9 Compat Modes */
+    url('../font/NanumSquareRoundL.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/NanumSquareRoundL.woff2') format('woff2'), /* Modern Browsers */
+    url('../font/NanumSquareRoundL.woff') format('woff'), /* Modern Browsers */
+    url('../font/NanumSquareRoundL.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 400;
+  src: local('NanumSquareRoundR'), /* computer */
+    url('../font/NanumSquareRoundR.eot'), /* IE9 Compat Modes */
+    url('../font/NanumSquareRoundR.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/NanumSquareRoundR.woff2') format('woff2'), /* Modern Browsers */    
+    url('../font/NanumSquareRoundR.woff') format('woff'), /* Modern Browsers */
+    url('../font/NanumSquareRoundR.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 700;
+  src: local('NanumSquareRoundB'), /* computer */
+    url('../font/NanumSquareRoundB.eot'), /* IE9 Compat Modes */
+    url('../font/NanumSquareRoundB.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/NanumSquareRoundB.woff2') format('woff2'), /* Modern Browsers */
+    url('../font/NanumSquareRoundB.woff') format('woff'), /* Modern Browsers */
+    url('../font/NanumSquareRoundB.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 800;
+  src: local('NanumSquareRoundEB'), /* computer */
+    url('../font/NanumSquareRoundEB.eot'), /* IE9 Compat Modes */
+    url('../font/NanumSquareRoundEB.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/NanumSquareRoundEB.woff2') format('woff2'), /* Modern Browsers */
+    url('../font/NanumSquareRoundEB.woff') format('woff'), /* Modern Browsers */
+    url('../font/NanumSquareRoundEB.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+
+@font-face {
+ font-family: 'NanumBarunGothic';
+ font-style: normal;
+ font-weight: 400;
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+}
+
+@font-face {
+ font-family: 'NanumBarunGothic';
+ font-style: normal;
+ font-weight: 700;
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+}
+
+@font-face {
+ font-family: 'NanumBarunGothic';
+ font-style: normal;
+ font-weight: 300;
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+ src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+}
+ 

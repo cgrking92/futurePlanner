@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=1280">
+	<title></title>
+	<link rel="shortcut icon" href="#">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<link rel="stylesheet" href="/assets/css/swiper.min.css">
+	<link rel="stylesheet" href="/assets/css/font.css">
+	<link rel="stylesheet" href="/assets/css/default.css">
+	<link rel="stylesheet" href="/assets/css/sub.css">
+</head>
+<body class="sub" id="root">
+
+<script type="text/javascript" src="/assets/js/swiper.min.js"></script>
+<script type="text/javascript" src="/assets/js/ui.js"></script>
+<script>
+
+var agent = navigator.userAgent.toLowerCase();
+if ( (navigator.appName == 'Netscape' && agent.indexOf('trident') != -1) || (agent.indexOf("msie") != -1)) {
+	alert('ECM 서비스를 사용하기 위해서는 Chrome Browser 사용이 필수 입니다. \n아래 확인 버튼을 클릭하셔서, Chrome Browser설치 후 이용해 주세요.');
+	window.location.href="https://www.google.com/intl/ko/chrome/";
+}  
+
+window.characterSwiperInit = function() {
+		var paginations = new Swiper('.paginations', {
+				slidesPerView: 24,
+				// effect: 'fade', // 페이드 효과 사용
+
+			});
+		var mainslide = new Swiper('.img_mask', {
+			slidesPerView:1,
+
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			thumbs: {
+				swiper: paginations,
+			},
+		});
+		$('.paginations ul li').on('click', 'a', function () {
+			// var li_idx = $(this).parent().index();
+			// $(this).parent().addClass('active').siblings().removeClass('active');
+			// mainslide.slideTo(li_idx, 1000, false);
+			mainslide.autoplay.start();
+			paginations.autoplay.start();
+		});
+	}
+</script>
+
+</body>
+</html>
